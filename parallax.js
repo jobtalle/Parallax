@@ -15,7 +15,7 @@ const layers = [
     new Layer(document.getElementById("layer-1"), .005),
     new Layer(document.getElementById("layer-2"), .02),
     new Layer(document.getElementById("layer-3"), .03),
-    new Layer(document.getElementById("layer-4"), .08),
+    new Layer(document.getElementById("layer-4"), .05),
     new Layer(document.getElementById("layer-5"), .1)
 ];
 
