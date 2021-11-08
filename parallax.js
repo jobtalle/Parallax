@@ -12,12 +12,12 @@ class Layer {
 
 const approach = .1;
 const layers = [
-    new Layer(document.getElementById("layer-1"), .005),
+    new Layer(document.getElementById("layer-1"), -.01),
     new Layer(document.getElementById("layer-2"), .01),
     new Layer(document.getElementById("layer-3"), .012),
-    new Layer(document.getElementById("layer-4"), .02),
-    new Layer(document.getElementById("layer-5"), .025),
-    new Layer(document.getElementById("layer-6"), .1)
+    new Layer(document.getElementById("layer-4"), .015),
+    new Layer(document.getElementById("layer-5"), .02),
+    new Layer(document.getElementById("layer-6"), .025)
 ];
 
 let x = 0;
